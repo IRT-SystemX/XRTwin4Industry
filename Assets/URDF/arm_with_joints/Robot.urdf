@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<robot name="Robot">
+  <material name="Brass - Polished">
+    <color rgba="0.979 0.9044 0.7262 1" />
+  </material>
+  <material name="Aluminum - Anodized Glossy (Grey)">
+    <color rgba="0.7594 0.7594 0.7594 1" />
+  </material>
+  <material name="Paint - Enamel Glossy (Yellow)">
+    <color rgba="0.9593 0.8425 0.4062 1" />
+  </material>
+  <material name="Paint - Enamel Glossy (Black)">
+    <color rgba="0.3459 0.3459 0.3459 1" />
+  </material>
+  <link name="Component-1-Base:1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="100" />
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
+    </inertial>
+    <visual name="Base">
+      <geometry>
+        <mesh filename="package://meshes/Base.stl" scale="30 30 30" />
+      </geometry>
+      <material name="Brass - Polished" />
+    </visual>
+    <visual name="Foot1">
+      <geometry>
+        <mesh filename="package://meshes/Foot01.stl" scale="30 30 30" />
+      </geometry>
+      <material name="Aluminum - Anodized Glossy (Grey)" />
+    </visual>
+    <visual name="Foot2">
+      <geometry>
+        <mesh filename="package://meshes/Foot02.stl" scale="30 30 30" />
+      </geometry>
+      <material name="Aluminum - Anodized Glossy (Grey)" />
+    </visual>
+    <visual name="Foot3">
+      <geometry>
+        <mesh filename="package://meshes/Foot03.stl" scale="30 30 30" />
+      </geometry>
+      <material name="Aluminum - Anodized Glossy (Grey)" />
+    </visual>
+    <visual name="Foot4">
+      <geometry>
+        <mesh filename="package://meshes/Foot04.stl" scale="30 30 30" />
+      </geometry>
+      <material name="Aluminum - Anodized Glossy (Grey)" />
+    </visual>
+    <visual name="Smaller base">
+      <geometry>
+        <mesh filename="package://meshes/SmallerBase.stl" scale="30 30 30" />
+      </geometry>
+      <material name="Brass - Polished" />
+    </visual>
+    <collision name="Base">
+      <geometry>
+        <mesh filename="package://meshes/Base.stl" scale="30 30 30" />
+      </geometry>
+    </collision>
+    <collision name="Foot1">
+      <geometry>
+        <mesh filename="package://meshes/Foot01.stl" scale="30 30 30" />
+      </geometry>
+    </collision>
+    <collision name="Foot2">
+      <geometry>
+        <mesh filename="package://meshes/Foot002.stl" scale="30 30 30" />
+      </geometry>
+    </collision>
+    <collision name="Foot3">
+      <geometry>
+        <mesh filename="package://meshes/Foot03.stl" scale="30 30 30" />
+      </geometry>
+    </collision>
+    <collision name="Foot4">
+      <geometry>
+        <mesh filename="package://meshes/Foot04.stl" scale="30 30 30" />
+      </geometry>
+    </collision>
+    <collision name="Smaller base">
+      <geometry>
+        <mesh filename="package://meshes/Smaller base.stl" scale="30 30 30" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="Component-2-Jaw-1:1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
+    </inertial>
+    <visual name="001">
+      <origin xyz="0 0 0.2464" />
+      <geometry>
+        <mesh filename="package://meshes/[Interactable] 001.stl" scale="30 30 30" />
+      </geometry>
+      <material name="Aluminum - Anodized Glossy (Grey)" />
+    </visual>
+    <visual name="Structure1">
+      <origin xyz="0 -0.009 0.214" />
+      <geometry>
+        <mesh filename="package://meshes/Structure001.stl" scale="30.000002 30.000002 30" />
+      </geometry>
+      <material name="Brass - Polished" />
+    </visual>
+    <collision name="001">
+      <origin xyz="0 0 0.2464" />
+      <geometry>
+        <mesh filename="package://meshes/[Interactable] 001.stl" scale="30 30 30" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="Component-3-Jaw-2:1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
+    </inertial>
+    <visual>
+      <origin rpy="0 1.570796 0" xyz="-0.088 0 0" />
+      <geometry>
+        <mesh filename="package://meshes/[Interactable] 002.stl" scale="30.000011 30.000004 30.000011" />
+      </geometry>
+      <material name="Paint - Enamel Glossy (Yellow)" />
+    </visual>
+    <visual>
+      <origin rpy="-4.712389 5.608196 -1.570796" xyz="-0.026 0 0" />
+      <geometry>
+        <mesh filename="package://meshes/Component 2.stl" scale="30.000008 30.000008 30.00001" />
+      </geometry>
+      <material name="Aluminum - Anodized Glossy (Grey)" />
+    </visual>
+  </link>
+  <link name="Component-4-Jaw-3:1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
+    </inertial>
+    <visual name="Cube">
+      <origin rpy="0 0 -3.141593" xyz="0.157 0.1418 0.1023" />
+      <geometry>
+        <mesh filename="package://meshes/Cube.stl" scale="30.000004 30 29.999998" />
+      </geometry>
+      <material name="Brass - Polished" />
+    </visual>
+    <visual name="DiskUnderCube">
+      <origin rpy="0 0 -3.141593" xyz="0.116 0.157 0.139" />
+      <geometry>
+        <mesh filename="package://meshes/DiskUnderCube.stl" scale="30.000008 30.000008 30" />
+      </geometry>
+      <material name="Brass - Polished" />
+    </visual>
+    <visual name="Structure2">
+      <origin rpy="0 0 -3.141593" xyz="0.159 0.14 0.102" />
+      <geometry>
+        <mesh filename="package://meshes/Structure2.stl" scale="30.000023 30.000015 29.999996" />
+      </geometry>
+      <material name="Brass - Polished" />
+    </visual>
+  </link>
+  <link name="Component-5-Jaw-4:1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
+    </inertial>
+    <visual name="Structure3">
+      <origin xyz="-0.001 -0.0244 0.0051" />
+      <geometry>
+        <mesh filename="package://meshes/Structure3.stl" scale="30 30 30" />
+      </geometry>
+      <material name="Paint - Enamel Glossy (Black)" />
+    </visual>
+    <visual name="Structure4">
+      <origin xyz="-0.003 -0.0174 0.0101" />
+      <geometry>
+        <mesh filename="package://meshes/Structure4.stl" scale="30 30 30" />
+      </geometry>
+      <material name="Aluminum - Anodized Glossy (Grey)" />
+    </visual>
+  </link>
+  <link name="Component-6-Jaw-5:1">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
+    </inertial>
+    <visual name="Inter">
+      <origin rpy="0 4.712389 -1.570796" xyz="0.0128 -0.0041 -0.1428" />
+      <geometry>
+        <mesh filename="package://meshes/Inter.stl" scale="30.000008 30.000004 30.000004" />
+      </geometry>
+      <material name="Paint - Enamel Glossy (Yellow)" />
+    </visual>
+    <visual name="Structure5">
+      <origin rpy="0 4.712389 0" xyz="0.0088 -0.0131 -0.1358" />
+      <geometry>
+        <mesh filename="package://meshes/Structure5.stl" scale="30.000011 30.000004 30.000011" />
+      </geometry>
+      <material name="Brass - Polished" />
+    </visual>
+    <visual name="Structure6">
+      <origin rpy="0 4.712389 0" xyz="0.0088 -0.0131 -0.1179" />
+      <geometry>
+        <mesh filename="package://meshes/Structure6.stl" scale="30.000011 30.000004 30.000011" />
+      </geometry>
+      <material name="Brass - Polished" />
+    </visual>
+  </link>
+  <link name="link">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0" />
+      <mass value="1" />
+      <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1" />
+    </inertial>
+    <visual name="ClampHolder">
+      <origin rpy="-1.570796 0 0" xyz="0.008 -0.006 0.037" />
+      <geometry>
+        <mesh filename="package://meshes/ClampHolder.stl" scale="30.000006 30.000004 30.000004" />
+      </geometry>
+      <material name="Aluminum - Anodized Glossy (Grey)" />
+    </visual>
+    <visual name="Clamp1">
+      <origin rpy="0 5.934119 0" xyz="0.451 -0.006 0.034" />
+      <geometry>
+        <mesh filename="package://meshes/Clamp1.stl" scale="30 30 30" />
+      </geometry>
+      <material name="Aluminum - Anodized Glossy (Grey)" />
+    </visual>
+    <visual name="Clamp2">
+      <origin rpy="0 5.934119 -3.141593" xyz="-0.435 -0.006 0.034" />
+      <geometry>
+        <mesh filename="package://meshes/Clamp2.stl" scale="30 30 30" />
+      </geometry>
+      <material name="Aluminum - Anodized Glossy (Grey)" />
+    </visual>
+  </link>
+  <joint name="" type="revolute">
+    <parent link="Component-1-Base:1" />
+    <child link="Component-2-Jaw-1:1" />
+    <axis xyz="0 0 1" />
+    <dynamics damping="100" friction="100" />
+    <limit lower="0" upper="0" effort="1000" velocity="1000" />
+  </joint>
+  <joint name="" type="fixed">
+    <origin xyz="0.0004 -0.435 0.6773" />
+    <parent link="Component-2-Jaw-1:1" />
+    <child link="Component-3-Jaw-2:1" />
+  </joint>
+  <joint name="" type="fixed">
+    <origin xyz="0 0.656 0.8199" />
+    <parent link="Component-3-Jaw-2:1" />
+    <child link="Component-4-Jaw-3:1" />
+  </joint>
+  <joint name="" type="fixed">
+    <origin xyz="0.1619 -0.7245 0.1063" />
+    <parent link="Component-4-Jaw-3:1" />
+    <child link="Component-5-Jaw-4:1" />
+  </joint>
+  <joint name="" type="fixed">
+    <origin xyz="-0.015 -0.3285 0.0031" />
+    <parent link="Component-5-Jaw-4:1" />
+    <child link="Component-6-Jaw-5:1" />
+  </joint>
+  <joint name="" type="fixed">
+    <origin xyz="0 0 -0.3109" />
+    <parent link="Component-6-Jaw-5:1" />
+    <child link="link" />
+  </joint>
+</robot>

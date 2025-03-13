@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>MQTTnet.Extensions.WebSocket4Net</id>
+    <version>4.3.3.952</version>
+    <authors>The contributors of MQTTnet</authors>
+    <owners>The contributors of MQTTnet</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/dotnet/MQTTnet</projectUrl>
+    <description>This is an extension library which allows using _WebSocket4Net_ as transport for MQTTnet clients.</description>
+    <releaseNotes>For release notes please go to MQTTnet release notes (https://www.nuget.org/packages/MQTTnet/).</releaseNotes>
+    <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
+    <tags>MQTT Message Queue Telemetry Transport MQTTClient MQTTServer Server MQTTBroker Broker NETStandard IoT InternetOfThings Messaging Hardware Arduino Sensor Actuator M2M ESP Smart Home Cities Automation Xamarin Blazor</tags>
+    <repository type="git" url="https://github.com/dotnet/MQTTnet.git" commit="eb25500f508751365d18ca1e0d7d1b911b1d1c66" />
+    <dependencies>
+      <group targetFramework=".NETFramework4.5.2">
+        <dependency id="MQTTnet" version="4.3.3.952" exclude="Build,Analyzers" />
+        <dependency id="WebSocket4Net" version="0.15.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="MQTTnet" version="4.3.3.952" exclude="Build,Analyzers" />
+        <dependency id="WebSocket4Net" version="0.15.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework4.8">
+        <dependency id="MQTTnet" version="4.3.3.952" exclude="Build,Analyzers" />
+        <dependency id="WebSocket4Net" version="0.15.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard1.3">
+        <dependency id="MQTTnet" version="4.3.3.952" exclude="Build,Analyzers" />
+        <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
+        <dependency id="WebSocket4Net" version="0.15.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="UAP10.0.10240">
+        <dependency id="MQTTnet" version="4.3.3.952" exclude="Build,Analyzers" />
+        <dependency id="WebSocket4Net" version="0.15.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="MQTTnet" version="4.3.3.952" exclude="Build,Analyzers" />
+        <dependency id="WebSocket4Net" version="0.15.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework5.0">
+        <dependency id="MQTTnet" version="4.3.3.952" exclude="Build,Analyzers" />
+        <dependency id="WebSocket4Net" version="0.15.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework6.0">
+        <dependency id="MQTTnet" version="4.3.3.952" exclude="Build,Analyzers" />
+        <dependency id="WebSocket4Net" version="0.15.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETFramework7.0">
+        <dependency id="MQTTnet" version="4.3.3.952" exclude="Build,Analyzers" />
+        <dependency id="WebSocket4Net" version="0.15.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="MQTTnet" version="4.3.3.952" exclude="Build,Analyzers" />
+        <dependency id="WebSocket4Net" version="0.15.2" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.1">
+        <dependency id="MQTTnet" version="4.3.3.952" exclude="Build,Analyzers" />
+        <dependency id="WebSocket4Net" version="0.15.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Collections.Specialized" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.IO" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Linq" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Net.NameResolution" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Net.Security" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Net.Sockets" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Runtime" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Runtime.Extensions" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Runtime.InteropServices" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Security.Cryptography.Algorithms" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Security.Cryptography.Encoding" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Security.Cryptography.Primitives" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Security.Cryptography.X509Certificates" targetFramework=".NETFramework4.8" />
+      <frameworkAssembly assemblyName="System.Text.RegularExpressions" targetFramework=".NETFramework4.8" />
+    </frameworkAssemblies>
+    <icon>nuget.png</icon>
+  </metadata>
+</package>
