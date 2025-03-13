@@ -10,7 +10,7 @@ We later extended the methodology and prototype. to allow AR instructions, typic
 This project is made for **Microsoft Hololens 2 only**. However, users are free to adapt it to other hardwares.
 To install the app, get the last build of the project in the build folder of this repository and copy it in your Hololens. Then, simply use the Hololens 2 to go to the install folder, select the app and press install.
 
-Instructions to build from source can be found in the [wiki](https://git.irt-systemx.fr/jni1/xrtwin4industry/-/wikis/2.-Build-project).
+Instructions to build from source can be found in the [wiki](https://github.com/IRT-SystemX/XRTwin4Industry/wiki).
 
 ## Features
 Following the standardised methodology explained in the scientifical publication, this Proof of Concept allows to visualize and interact with Digital Twins in Augmented Reality, as well as to create and follow AR instructions procedures (for maintenance or learning).
@@ -20,5 +20,5 @@ XR Digital Twins can be loaded from a server where they have to be stored in the
 AR instructions can be loaded from a QR code (leading to a compatible Asset Administration Shell file) placed in the real world. Instructions are then displayed in the 2W1H (What, Where How?) format, where AR User interface with texts and illustrations, as well as 3D objects placed in the world use the full potential of AR
 
 ## Wiki
-This projects contains a complete [wiki](https://git.irt-systemx.fr/jni1/xrtwin4industry/-/wikis/) where further information about the architecture, datamodel, usage can be found, as well as build instructions.
+This projects contains a complete [wiki](https://github.com/IRT-SystemX/XRTwin4Industry/wiki) where further information about the architecture, datamodel, usage can be found, as well as build instructions.
 
