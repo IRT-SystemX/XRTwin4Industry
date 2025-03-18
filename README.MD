@@ -10,7 +10,7 @@ We later extended the methodology and prototype. to allow AR instructions, typic
 
 ## Installation
 This project is made for **Microsoft Hololens 2 only**. However, users are free to adapt it to other hardwares.
-To install the app, get the last build of the project in the build folder of this repository and copy it in your Hololens. Then, simply use the Hololens 2 to go to the install folder, select the app and press install.
+To install the app, get the last build of the project in the build folder of this repository and copy it in your Hololens 2. Then, in the Hololens go to the the location where you copied the app folder, select the .appx file and press install.
 
 Instructions to build from source can be found in the [wiki](https://github.com/IRT-SystemX/XRTwin4Industry/wiki).
 
