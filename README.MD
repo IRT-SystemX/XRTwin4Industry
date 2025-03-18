@@ -1,7 +1,9 @@
 # XR-Twin4Industry
-XRTwin4Industry is an exploratory research project whose goal is to construct a comprehensive methodology designed to tackle key challenges in the use of Extended Reality for industrial digital twin applications, specifically focusing on visualization, interaction, standardization, and interoperability. By conducting a state-of-the-art review, we identify the major obstacles and propose solutions through an integrated methodology that encompasses a tailored data model and system architecture aligned with the IEC 63278 standard and the Asset Administration Shell vision of Industry 4.0, ensuring compatibility with current industrial standards. To validate this approach, both a Proof of Concept and a real-world application scenario are developed, demonstrating the practical viability of the proposed framework. The design is further evaluated using User-Centered Design principles to ensure usability and effectiveness in industrial settings.
+XRTwin4Industry is a research project that is part of the [JNI programme](https://www.irt-systemx.fr/en/research-programs/digital-twins-for-complex-industrial-systems/) of IRT SYSTEMX. the objective of this Framework is to construct a comprehensive methodology designed to tackle key challenges in the use of Extended Reality for industrial digital twin applications, specifically focusing on visualization, interaction, standardization, and interoperability. By conducting a state-of-the-art review, we identify the major obstacles and propose solutions through an integrated methodology that encompasses a tailored data model and system architecture aligned with the IEC 63278 standard and the Asset Administration Shell vision of Industry 4.0, ensuring compatibility with current industrial standards. To validate this approach, both a Proof of Concept and a real-world application scenario are developed, demonstrating the practical viability of the proposed framework. The design is further evaluated using User-Centered Design principles to ensure usability and effectiveness in industrial settings.
 This repository contains the Proof of Concept source code and builds, as well as technical documentation.
-Our first scientific paper can be found here :
+
+## Related Research Paper
+The associated research paper can be found [here](https://hal.science/hal-04915043/).
 
 We later extended the methodology and prototype. to allow AR instructions, typically for education and maintenance purposes. The elements presented in this wiki are up to date with this new version.
 
@@ -22,3 +24,5 @@ AR instructions can be loaded from a QR code (leading to a compatible Asset Admi
 ## Wiki
 This projects contains a complete [wiki](https://github.com/IRT-SystemX/XRTwin4Industry/wiki) where further information about the architecture, datamodel, usage can be found, as well as build instructions.
 
+## To cite this work
+Timothé Lacheroy, Abdelhadi Belfadel, Jean-Yves Didier. XRTwin4Industry: A Comprehensive Framework for Standardisation and Interoperability in XR-Enabled Industrial Digital Twins. Workshop Digital Twins Ecosystems and Applications (DIGITA), 23rd International Conference on Pervasive Computing and Communications (PerCom), Mar 2025, Washington, United States. ⟨hal-04915043⟩
