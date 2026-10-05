@@ -25,4 +25,8 @@ AR instructions can be loaded from a QR code (leading to a compatible Asset Admi
 This projects contains a complete [wiki](https://github.com/IRT-SystemX/XRTwin4Industry/wiki) where further information about the architecture, datamodel, usage can be found, as well as build instructions.
 
 ## To cite this work
-Timothé Lacheroy, Abdelhadi Belfadel, Jean-Yves Didier. XRTwin4Industry: A Comprehensive Framework for Standardisation and Interoperability in XR-Enabled Industrial Digital Twins. Workshop Digital Twins Ecosystems and Applications (DIGITA), 23rd International Conference on Pervasive Computing and Communications (PerCom), Mar 2025, Washington, United States. ⟨hal-04915043⟩
+If you use **XRTwin4Industry** in your research, please cite the following publications:
+
+> BELFADEL, Abdelhadi, LACHEROY, Timothé, CREFF, Stephen, et al. *XRTwin4Industry: Empowering Industrial Digital Twins with XR and Instruction System—A Framework for Standardization and Interoperability*. **Future Generation Computer Systems**, 2026, p. 108476. [XRTwin4Industry] (https://doi.org/10.1016/j.future.2026.108476).
+
+> LACHEROY, Timothé, BELFADEL, Abdelhadi, DIDIER, Jean-Yves. *XRTwin4Industry: A Comprehensive Framework for Standardisation and Interoperability in XR-Enabled Industrial Digital Twins*. In: **Workshop Digital Twins Ecosystems and Applications (DIGITA)**, 23rd International Conference on Pervasive Computing and Communications (PerCom), March 2025, Washington, United States. [HAL: hal-04915043](https://hal.science/hal-04915043).
