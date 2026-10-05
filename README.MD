@@ -27,6 +27,6 @@ This projects contains a complete [wiki](https://github.com/IRT-SystemX/XRTwin4I
 ## To cite this work
 If you use **XRTwin4Industry** in your research, please cite the following publications:
 
-> BELFADEL, Abdelhadi, LACHEROY, Timothé, CREFF, Stephen, BEN HAMIDA, Amira, DIDIER, Jean-Yves. *XRTwin4Industry: Empowering Industrial Digital Twins with XR and Instruction System—A Framework for Standardization and Interoperability*. **Future Generation Computer Systems**, 2026, p. 108476. [XRTwin4Industry] (https://doi.org/10.1016/j.future.2026.108476).
+> BELFADEL, Abdelhadi, LACHEROY, Timothé, CREFF, Stephen, BEN HAMIDA, Amira, DIDIER, Jean-Yves. *XRTwin4Industry: Empowering Industrial Digital Twins with XR and Instruction System—A Framework for Standardization and Interoperability*. **Future Generation Computer Systems**, 2026, p. 108476. (https://doi.org/10.1016/j.future.2026.108476)
 
 > LACHEROY, Timothé, BELFADEL, Abdelhadi, DIDIER, Jean-Yves. *XRTwin4Industry: A Comprehensive Framework for Standardisation and Interoperability in XR-Enabled Industrial Digital Twins*. In: **Workshop Digital Twins Ecosystems and Applications (DIGITA)**, 23rd International Conference on Pervasive Computing and Communications (PerCom), March 2025, Washington, United States. [HAL: hal-04915043](https://hal.science/hal-04915043).
